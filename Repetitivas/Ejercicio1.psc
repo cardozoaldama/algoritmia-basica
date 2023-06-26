@@ -1,16 +1,3 @@
-Funcion resultado <- esPrimo ( x )
-	Definir i, resultado Como Entero
-	i = 2
-	Mientras i <= raiz(x) Y i % x <> 0 Hacer
-		i = i + 1
-	FinMientras
-	Si i >= raiz(x) Entonces
-		resultado = 1
-	SiNo
-		resultado = 0
-	FinSi
-FinFuncion
-
 // Ejercicio:
 // Mostrar en pantalla los N primeros números primos. 
 // Se pide por teclado la cantidad de números primos que queremos mostrar.
@@ -40,7 +27,6 @@ Algoritmo NumerosPrimos
 	Leer n
 	i = 2
 	Mientras i <= n Hacer
-		resultadoPrimo = esPrimo(i)
 		Si resultadoPrimo == 1 Entonces
 			Escribir i, ": es primo"
 		FinSi
