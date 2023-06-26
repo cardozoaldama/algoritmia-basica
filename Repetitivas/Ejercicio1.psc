@@ -38,7 +38,7 @@ Algoritmo NumerosPrimos
 	Definir n, i, resultadoPrimo Como Entero
 	Escribir "Ingrese un número entero"
 	Leer n
-	i = 1
+	i = 2
 	Mientras i <= n Hacer
 		resultadoPrimo = esPrimo(i)
 		Si resultadoPrimo == 1 Entonces
