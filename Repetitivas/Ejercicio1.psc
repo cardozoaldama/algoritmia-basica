@@ -22,13 +22,19 @@
 
 
 Algoritmo NumerosPrimos
-	Definir n, i, resultadoPrimo Como Entero
-	Escribir "Ingrese un número entero"
+	Definir n, i, j Como Entero
+	Escribir "Ingrese un número entero: "
 	Leer n
 	i = 2
 	Mientras i <= n Hacer
-		Si resultadoPrimo == 1 Entonces
-			Escribir i, ": es primo"
+		j = 2
+		Mientras j <= raiz(i) Y j MOD i <> 0 Hacer
+			j = j + 1
+		FinMientras
+		Si j >= raiz(i) Entonces
+			Escribir j, ": es primo"
+		SiNo
+			Escribir j, ": NO es primo"
 		FinSi
 		i = i + 1
 	FinMientras
