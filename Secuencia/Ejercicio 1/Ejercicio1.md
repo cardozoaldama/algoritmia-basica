@@ -16,3 +16,7 @@ Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
 1. Pedir que ingrese su nombre.
 2. Asignar ese ingreso de dato a la variable *nombre*.
 3. Escribir por pantalla el mensaje "¡Saludos, *nombre*!" En donde *nombre* es el nombre del usuario. 
+
+## Diagrama de flujo
+
+![DFD del ejercicio 1](./Ejercicio1DFD.png)
