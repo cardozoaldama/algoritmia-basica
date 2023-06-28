@@ -10,12 +10,12 @@ Dados dos números, mostrar la suma, resta, división y multiplicación de ambos
 - Datos de salida: La suma, resta, división, y multiplicación de esos números. 
 - Variables: num1, num2, suma, resta, division, producto: Numéricas reales 
 - Cálculos: 
-            ```c
-            suma = num1 + num2
-            resta = num1 - num2
-            division = num1 / num2
-            producto = num1 * num2
-            ```
+```C
+  suma = num1 + num2
+  resta = num1 - num2
+  division = num1 / num2
+  producto = num1 * num2
+```
 
 ### Diseño
 
