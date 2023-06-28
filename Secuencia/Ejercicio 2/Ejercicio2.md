@@ -22,4 +22,4 @@ Calcular el perímetro y área de un rectángulo dada su base y su altura.
 
 ## Diagrama de flujo
 
-![]()  
+![DFD del Ejercicio 2](./Ejercicio2DFD.png)  
