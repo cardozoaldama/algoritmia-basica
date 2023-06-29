@@ -26,4 +26,4 @@ raizCubica = num^(1/3)
 
 ## Diagrama de flujo
 
-![](url)
+![DFD del ejercicio 13](./Ejercicio13DFD.png)
