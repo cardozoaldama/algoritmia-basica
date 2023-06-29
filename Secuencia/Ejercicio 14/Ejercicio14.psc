@@ -7,4 +7,4 @@ Algoritmo DosNumerosInvertidos
 	primerNumero = trunc(num / 10)
 	segundoNumero = num % 10
 	Escribir "El número invertido de ", num, " es: ", segundoNumero, primerNumero
-	FinAlgoritmo
+FinAlgoritmo
