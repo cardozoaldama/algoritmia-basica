@@ -27,4 +27,4 @@ segundoNumero = num % 10 // 2
 
 ## Diagrama de flujo
 
-![](url)
+![DFD del ejercicio 14](./Ejercicio14DFD.png)
