@@ -35,4 +35,4 @@ calificacionTotal = promedioCalif + califExamFinal + califTrabajoFinal
 
 ## Diagrama de flujo
 
-![](url)
+![DFD del ejercicio 10](./Ejercicio10DFD.png)
