@@ -25,4 +25,4 @@ totalCompraDescontada = totalCompra - descuento
 
 ## Diagrama de flujo
 
-![](url)
+![DFD del ejercicio 9](./Ejercicio9DFD.png)
