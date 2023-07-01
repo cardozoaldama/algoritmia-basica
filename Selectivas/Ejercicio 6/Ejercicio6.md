@@ -15,8 +15,8 @@ Programa que lea una cadena por teclado y compruebe si es una letra es mayúscul
 1. Ingresar una letra por teclado.
 2. Asignar dicha letra en la variable *letra*.
 3. Confirmar si *letra* está en mayúsculas usando la función de mayúsculas.
-4. En caso que sea **VERDAD**, asignar en la variable *resultado* lo siguiente: "La letra " + cadena(letra) + " está en mayúsculas."
-5. En caso que sea **FALSO**, asignar en la variable *resultado* lo siguiente: "La letra " + cadena(letra) + " está en minúsculas."
+4. En caso que sea **VERDAD**, asignar en la variable *resultado* lo siguiente: "La letra " + letra + " está en mayúsculas."
+5. En caso que sea **FALSO**, asignar en la variable *resultado* lo siguiente: "La letra " + letra + " está en minúsculas."
 6. Escribir el resultado por pantalla.
 
 ## Diagrama de flujo
