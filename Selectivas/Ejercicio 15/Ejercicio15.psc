@@ -6,5 +6,28 @@
 // Realice un algoritmo que permita determinar el pago a la compañía de autobuses y lo que debe pagar cada alumno por el viaje.
 
 Algoritmo EscuelaViajeEstudios
-	
+	Definir cantidadAlumnos Como Entero
+	Definir pagoFinal, costoPorAlumno Como Real
+	Definir mensaje Como Caracter
+	cantidadAlumnos = 0
+	costoPorAlumno = 0.0
+	pagoFinal = 0.0
+	Escribir "Ingresar la cantidad de alumnos que ingresarán al viaje"
+	Leer cantidadAlumnos
+	Si cantidadAlumnos >= 100 Entonces
+		costoPorAlumno = 65
+	SiNo
+		Si cantidadAlumnos >= 50 Y cantidadAlumnos <= 99 Entonces
+			costoPorAlumno = 70
+		SiNo
+			Si cantidadAlumnos >= 30 Y cantidadAlumnos <= 49 Entonces
+				costoPorAlumno = 95
+			SiNo
+				costoPorAlumno = 4000.0 / cantidadAlumnos
+			FinSi
+		FinSi
+	FinSi
+	pagoFinal = cantidadAlumnos * costoPorAlumno
+	mensaje = "El pago final es de " + ConvertirATexto(pagoFinal) + "? y cada alumno pagará " + ConvertirATexto(costoPorAlumno) + "?"
+	Escribir mensaje
 FinAlgoritmo
