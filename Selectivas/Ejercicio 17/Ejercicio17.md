@@ -13,15 +13,33 @@ Realiza un programa que pida por teclado el resultado (dato entero) obtenido al 
 
 ### Análisis
 
-- **Datos de entrada:**
-- **Datos de salida:**
-- **Variables:**
+- **Datos de entrada:** Número del dado.
+- **Datos de salida:** La cara opuesta en forma de cadena.
+- **Variables:** numeroDado: Como Entera; caraOpuesta: Como Carácter.
 - _Cálculos:_
+```C
+Casos
+    Si numeroDado = 1 Entonces la cara opuesta es "seis"
+    Si numeroDado = 6 Entonces la cara opuesta es "uno"
+    Si numeroDado = 2 Entonces la cara opuesta es "cinco"
+    Si numeroDado = 5 Entonces la cara opuesta es "dos"
+    Si numeroDado = 3 Entonces la cara opuesta es "cuatro"
+    Si numeroDado = 4 Entonces la cara opuesta es "tres"
+```
 
 ### Diseño
 
-1.
+1. Ingresar por teclado el valor numérico entero para almacenarlo en la variable `numeroDado`.
+2. Confirmar en casos las posibilidades de la cara opuesta.
+3. Si `numeroDado` es 1, entonces la cara opuesta es seis.
+4. Si `numeroDado` es 6, entonces la cara opuesta es uno.
+5. Si `numeroDado` es 2, entonces la cara opuesta es cinco.
+6. Si `numeroDado` es 5, entonces la cara opuesta es dos.
+7. Si `numeroDado` es 3, entonces la cara opuesta es cuatro.
+8. Si `numeroDado` es 4, entonces la cara opuesta es tres.
+9. El resultado final almacenarlo en la variable `caraOpuesta`.
+10. Escribir por pantalla el resultado final.
 
 ## Diagrama de flujo
 
-![](url)
+![DFD del ejercicio 17 selectiva](./Ejercicio17DFD.png)
