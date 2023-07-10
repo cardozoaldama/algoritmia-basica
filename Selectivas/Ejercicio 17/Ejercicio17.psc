@@ -9,5 +9,24 @@
 // En la cara opuesta está el "dos".
 
 Algoritmo JuegoDelDado
-	
+	Definir numeroDado Como Entero
+	Definir caraOpuesta Como Caracter
+	Escribir Sin Saltar "Ingrese el número que le salió del dado: "
+	Leer numeroDado
+	Si numeroDado < 1 O numeroDado > 6 Entonces
+		Escribir "ERROR: número incorrecto."
+	SiNo
+		Segun numeroDado Hacer
+			1: caraOpuesta = "Seis"
+			2: caraOpuesta = "Cinco"
+			3: caraOpuesta = "Cuatro"
+			4: caraOpuesta = "Tres"
+			5: caraOpuesta = "Dos"
+			6: caraOpuesta = "Uno"
+			De Otro Modo:
+				Escribir "No llega hasta aquí."
+		FinSegun
+		Escribir "El número del dado que se ha lanzado fue: ", numeroDado
+		Escribir "Su cara opuesta es el siguiente: ", caraOpuesta
+	FinSi
 FinAlgoritmo
