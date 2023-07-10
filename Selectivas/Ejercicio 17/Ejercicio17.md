@@ -30,15 +30,16 @@ Casos
 ### Diseño
 
 1. Ingresar por teclado el valor numérico entero para almacenarlo en la variable `numeroDado`.
-2. Confirmar en casos las posibilidades de la cara opuesta.
-3. Si `numeroDado` es 1, entonces la cara opuesta es seis.
-4. Si `numeroDado` es 6, entonces la cara opuesta es uno.
-5. Si `numeroDado` es 2, entonces la cara opuesta es cinco.
-6. Si `numeroDado` es 5, entonces la cara opuesta es dos.
-7. Si `numeroDado` es 3, entonces la cara opuesta es cuatro.
-8. Si `numeroDado` es 4, entonces la cara opuesta es tres.
-9. El resultado final almacenarlo en la variable `caraOpuesta`.
-10. Escribir por pantalla el resultado final.
+2. Si `numeroDado` es mayor a seis y menor a uno, entonces es incorrecto.
+3. De lo contrario, confirmar en casos las posibilidades de la cara opuesta.
+4. Si `numeroDado` es 1, entonces la cara opuesta es seis.
+5. Si `numeroDado` es 6, entonces la cara opuesta es uno.
+6. Si `numeroDado` es 2, entonces la cara opuesta es cinco.
+7. Si `numeroDado` es 5, entonces la cara opuesta es dos.
+8. Si `numeroDado` es 3, entonces la cara opuesta es cuatro.
+9. Si `numeroDado` es 4, entonces la cara opuesta es tres.
+10. El resultado final almacenarlo en la variable `caraOpuesta`.
+11. Escribir por pantalla el resultado final.
 
 ## Diagrama de flujo
 
