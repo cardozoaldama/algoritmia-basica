@@ -25,4 +25,10 @@ Mostrar en pantalla los N primeros números primos. Se pide por teclado la canti
 
 ## Diagrama de flujo
 
+### Función de primo
+
+![DFD del ejercicio 1 ciclos](./Ejercicio1DFDSub.png)
+
+### Algoritmo principal
+
 ![DFD del ejercicio 1 ciclos](./Ejercicio1DFD.png)
