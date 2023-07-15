@@ -8,7 +8,7 @@ Crea una aplicación que permita adivinar un número. La aplicación genera un n
 
 - **Datos de entrada:** Un número por cada ciclo.
 - **Datos de salida:** La cantidad de intentos, el número que se ha generado, y un mensaje de que lo ha o no logrado.
-- **Variables:** num, numeroMagico, i: Numéricas Enteras; esAcertado: Tipo Lógico.
+- **Variables:** num, numeroMagico, i: Numéricas Enteras; esJugable: Tipo Lógico.
 - *Cálculos*:
 ```C
 numeroMagico = Números aleatorios entre el uno y el cien.
@@ -24,9 +24,10 @@ i = 1;
 2. Asignar `esAcertado` un valor de inicial de **FALSO**.
 3. Asignar `i` un valor inicial de uno.
 4. Iniciar un ciclo en donde la `i` sea menor a *11* y `esJugable` sea igual a **VERDADERO**.
+5. Imprimir por pantalla el número de intentos restantes.
 5. Preguntar al usuario por un número.
 6. Asignar dicho dato en `num`.
-7. Si `num` es igual a `numeroMagico`. Si es **VERDADERO**, entonces `esJugable` es **FALSO** porque ya ganó y enviar un mensaje por pantalla que ganó con tantos intentos.
+7. Si `num` es igual a `numeroMagico`. Si es **VERDADERO**, entonces `esJugable` es **FALSO** porque ya ganó y enviar un mensaje por pantalla que ganó con tantos intentos y el número mágico.
 8. Caso contrario, si `num` es mayor a `numeroMagico`. Si es **VERDADERO** entonces `num` rebasa al `numeroMagico` y enviar un mensaje. Si es **FALSO**, entonces `num` no alcanza aún a `numeroMagico`.
 9. Una vez que se salga del ciclo, es porque hay que verificar si `i` es mayor a 10. Si es **VERDADERO**, entonces quiere decir que no ha acertado ningún número y enviar un mensaje al usuario con el `numeroMagico`. Caso contrario, no hacer nada.
 
