@@ -1,4 +1,4 @@
-# Ejercicio 4 ciclos
+# Ejercicio 5 ciclos
 
 ## Planteamiento del problema
 
@@ -26,4 +26,4 @@ La a, e, i, o, u. Son vocales, el resto será NO VOCAL.
 
 ## Diagrama de flujo
 
-![DFD del ejercicio 4 ciclos](./Ejercicio4DFD.png)
+![DFD del ejercicio 5 ciclos](./Ejercicio5DFD.png)
