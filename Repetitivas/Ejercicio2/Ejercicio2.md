@@ -1,4 +1,4 @@
-# Ejercicio 1 ciclos
+# Ejercicio 2 ciclos
 
 ## Planteamiento del problema
 
