@@ -18,7 +18,7 @@ media = suma / cantidad de números introducidos
 
 ### Diseño
 
-1. Asignar la `i` como 1.
+1. Asignar la `i` como 0.
 2. Asignar la `suma` como 0.
 3. Imprimir por pantalla la bienvenida del algoritmo.
 4. Asignar `num` como 1.
