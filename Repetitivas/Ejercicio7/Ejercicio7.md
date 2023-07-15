@@ -19,11 +19,10 @@ resultado = num * i
 
 ### Diseño
 
-- Asignar la variable `i` a uno.
 - Asignar la variable `resultado` a cero.
 - Preguntar al usuario el número que desea desplegar para la tabla de multiplicar.
 - Asignar dicho dato en la variable `num`.
-- Mientras que `i` sea menor o igual a 11, entonces se realizarán las siguientes operaciones.
+- Usar un ciclo *PARA* que `i` sea 1 hasta que sea 10 con variación más uno, entonces se realizarán las siguientes operaciones.
 - A `resultado` asígnele el producto de `i` por `num`.
 - Escribir por pantalla el siguiente formato: `num * i = resultado`.
 - En variable `i` asignar el incremento de más uno.
