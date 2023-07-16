@@ -12,7 +12,7 @@ Escribe un programa que diga si un número introducido por teclado es o no primo
 - *Cálculos*:
 ```C
 Mientras que i sea menor o igual a la raíz cuadrada de num y que la i módulo num sea distinto a cero.
-MIENTRAS i % num <> 0 AND i <= raíz(num)
+MIENTRAS num % i <> 0 AND i <= raíz(num)
 ```
 
 ### Diseño
