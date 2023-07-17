@@ -24,7 +24,7 @@ Fin(Para)
 ### Diseño
 
 - Declarar las variables `pago`, `pagoTotal`, e `i` como numéricas enteras.
-- Inicializar `i` en uno, `pago` en 10, y `pagoTotal` en cero.
+- Inicializar `pago` en 10, y `pagoTotal` en cero.
 - Realizamos un ciclo **PARA** que `i` desde uno hasta 20 con variación más uno se puedan realizar las siguientes operaciones.
 - Al `pagoTotal` se le asigna la suma de `pagoTotal` más `pago`.
 - Escribir por pantalla para indicar al usuario que en el mes número `i` debe pagar `pagoTotal`.
