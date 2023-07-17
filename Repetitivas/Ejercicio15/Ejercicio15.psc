@@ -4,5 +4,14 @@
 
 Algoritmo ProductoAdquirido
 	// DECLARACIÓN DE VARIABLES:
-	
+	Definir pago, pagoTotal, i Como Entero
+	pago = 10
+	pagoTotal = 0
+	// Cálculos con el ciclo PARA.
+	Para i = 1 Hasta 20 Con Paso 1 Hacer
+		pagoTotal = pagoTotal + pago
+		Escribir "El pago que se debe realizar en el mes número ", i, " es: ", pagoTotal, " Gs."
+		pago = pago * 2
+	FinPara
+	Escribir "El total que se tuvo que pagar por los 20 meses es de: ", pagoTotal, " Gs."
 FinAlgoritmo
