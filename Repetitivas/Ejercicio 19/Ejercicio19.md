@@ -62,6 +62,7 @@ Fin(Para)
         - Si es cuatro, simplemente enviar un mensaje por pantalla de `"HOLA MUNDO"`.
             - Proponer la opción de _SALTE_ para dejar de preguntar en posteriores instrucciones.
         - Si es cinco, simplemente continúa hasta llegar a la condición del **MIENTRAS** del **HAGA** para dar la instrucción como cúlmino.
+        - Si ninguno de los casos han sido como tal, entonces escribir por pantalla el mensaje de `"Opción inválida, intente de nuevo."`.
     - Fin de la instrucción **CASOS**.
 - Con la condición de **MIENTRAS** `opcion` *NO* sea igual a la constante `5`.
 - Escribir por pantalla el cúlmino del algoritmo.
