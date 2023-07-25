@@ -116,6 +116,19 @@ Fin(CasosEjemplos)
 
 En la instrucción de `SALTE` es aquel en el cual cuando se ha evaluado una condición dicha instrucción no preguntará por las demás instrucciones y podrá dar en conclusión la instrucción *CASOS*. Hay diferentes formas de crear una estructura **CASOS** y es probable que las herramientas (lenguajes de programación) tengan una forma de escribir la sintáxis.
 
+## Estructuras de repetición o ciclos
+
+Es una estructura básica en el cual se le instruye al computador que repita cierto conjunto de tareas en el cual estarán iterando (repitiendo) bajo una cierta condición dada. Existen tres instrucciones principales, y pueden haber más dependiendo del lenguaje de programación.
+
+- Mientras
+- Para
+- Haga o Repetir
+
+Cuando la condición es `VERDADERA`, entonces se podrá ejecutar estos ciclos, pero si es `FALSA` la condición, entonces el ciclo se supone que se tiene que detener. A parte de eso, estos ciclos pueden ser de dos tipos: **INDETERMINADOS** o **DETERMINADOS**.
+
+- **Determinados**: Son aquellos en el cual usted **determina** el número de ciclos contados, es decir, tiene la certeza de las iteracciones que hará su programa.
+- **Indeterminados**: Son aquellos en el cual usted **no determina** con exactitud el número de ciclos contados, es decir, no tiene la certeza de las iteracciones que hará su programa.
+
 # Más temas
 
 ## Licencia
