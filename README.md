@@ -1,9 +1,16 @@
 # Algoritmos básicos
 
-En este repositorio subo algoritmos que estoy practicando usando pseudocódigos y diagramas de flujo. Y las estructuras correspondientes como son las siguientes:
+En este repositorio subo algoritmos que estoy practicando usando pseudocódigos y diagramas de flujo, utilizando el software **PSeInt**. Y las estructuras correspondientes como son las siguientes:
 - Estructura Secuencia
 - Estructura Decisión
 - Estructura Repetitiva
+Cada carpeta contiene sus correspondientes ejercicios de aquellas estructuras, con un total de 20 ejercicios de cada uno.
+Cada ejercicio contiene los siguientes elementos:
+- Documentación básica, en el cual existe los análisis, datos de entrada, datos de salida, diseño, y un diagrama de flujo.
+- El pseudocódigo que está escrito en `.psc` propio de **PSeInt**.
+- Una imagen de DFD (Diagrama de Flujo) en el cual se podrá apreciar con más claridad.
+
+# Estructuras
 
 ## Estructura Secuencia
 
@@ -71,4 +78,3 @@ INICIO
   Fin(Si)
 FIN
 ```
-En proceso... En construcción... 
