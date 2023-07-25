@@ -81,6 +81,41 @@ INICIO
 FIN
 ```
 
+### Instrucción Casos
+
+Esta es una instrucción alternativa que evalúa solamente valores numéricos enteros o también dependiendo de las herramientas (lenguajes de programación) puede evaluar caractéres. Generalmente se utiliza para evaluar múltiples casos, de ahí viene su nombre, y sirve especialmente para ser una excelente alternativa a la estructura `SI`.
+La instrucción **Casos** evalúa condiciones, por lo tanto es una estructura de decisión de selección múltiple.
+
+#### Ejemplo de una instrucción de CASOS
+
+```C
+Algoritmo: CasosEjemplos
+  Variables: menu, x, resultado, y: Numéricas Enteras
+  INICIO
+    Escriba("Ingrese dos números: ")
+    Lea(x, y)
+    Escriba("Ingrese una opción: ")
+    Escriba("1. Suma")
+    Escriba("2. Resta")
+    Escriba("3. Multiplicación")
+    Escriba("4. División")
+    Lea(menu)
+    CASOS
+      :menu == 1: resultado = x + y
+                  SALTE
+      :menu == 2: resultado = x - y
+                  SALTE
+      :menu == 3: resultado = x * y
+                  SALTE
+      :menu == 4: resultado = x / y
+      :Otro Caso: Escriba ("Ingrese un número correcto.")
+    Fin(CASOS)
+  FIN
+Fin(CasosEjemplos)
+```
+
+En la instrucción de `SALTE` es aquel en el cual cuando se ha evaluado una condición dicha instrucción no preguntará por las demás instrucciones y podrá dar en conclusión la instrucción *CASOS*. Hay diferentes formas de crear una estructura **CASOS** y es probable que las herramientas (lenguajes de programación) tengan una forma de escribir la sintáxis.
+
 # Más temas
 
 ## Licencia
