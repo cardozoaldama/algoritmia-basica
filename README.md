@@ -80,3 +80,17 @@ INICIO
   Fin(Si)
 FIN
 ```
+
+# Más temas
+
+## Licencia
+
+Este proyecto se encuentra bajo la Licencia *Unlicensed* - Para más detalles, consulta el archivo [LICENSE](./LICENSE).
+
+## Contribuciones
+
+¡Las contribuciones a este repositorio son bienvenidas! Si deseas agregar más ejemplos, más ejercicios, apartados de juegos exclusivamente para entretenimiento, corregir errores o mejorar la documentación, ejercicios, o ejemplos; por favor envía tus *pull requests* y podré revisarlos con honor.
+
+## Contacto
+
+Si tienes preguntas o comentarios relacionados con este proyecto, puedes utilizar el apartado de *issues* para enviar tu incomodidad, o no dudes en ponerte en contacto conmigo [aquí](mailto:fernandojosecardozoaldama@gmail.com).
